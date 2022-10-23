@@ -1,7 +1,6 @@
-p {
-  margin: 0;
+body {
+  background-color: bisque;
 }
-
 img {
   display: block;
   width: 100%;
@@ -28,7 +27,6 @@ img {
 .photo-card {
   display: flex;
   flex-direction: column;
-  //outline: 1px solid rgb(55, 7, 15);
   margin: 10px;
 background-color: rgb(247, 247, 234);
 border-radius: 5px;
@@ -38,9 +36,11 @@ border-radius: 5px;
   padding: 5px;
   display: flex;
   justify-content: space-around;
-
+  font-family: 'Courier New', Courier, monospace;
 }
-
+.info-item {
+  margin: 0;
+}
 .total-hits {
   display: block;
   font-size: 24px;
@@ -52,6 +52,7 @@ border-radius: 5px;
 }
 
 .search-form {
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,6 +82,9 @@ border-bottom: 1px solid green;
 
 .wrapper-btn {
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: bisque;
 }
 
 input {
@@ -88,6 +92,6 @@ input {
   border-radius: 10px;
 }
 
-.hide {
+.is-hidden {
   display: none;
 }
